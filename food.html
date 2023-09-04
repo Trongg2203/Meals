@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Meals</title>
+    <link rel="stylesheet" href="assit/food.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class="title">Find Meals For Your Ingredient</h2>
+            </div>
+            <blockquote>Real food doesn't have ingredient,
+                real food is ingredients.<br>
+                <cite>- Jamie Oliver</cite>
+            </blockquote>
+
+            <div class="meal-search-box">
+                <input type="text" class="search-control"
+                placeholder="Enter an ingredient" id="search-input">
+                <button type="submit" class="search-btn btn" id="search-btn"><i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <div class="meal-result">
+                <h2 class="title">Your Search Result:</h2>
+                <div id="meal">
+                    <!-- meal item -->
+                    <!-- <div class="meal-item">
+                        <div class="meal-img">
+                            <img src="img/tuesday.jpg" alt="food">
+                        </div>
+                        <div class="meal-name">
+                            <h3>Chicken fried</h3>
+                            <a href="#" class="recipe-btn">Get Recipe</a>
+                        </div>
+                    </div> -->
+                    <!--end of meal item-->
+
+                </div>
+            </div>
+            <div class="meal-details">
+                <!-- recipe close btn-->
+                <button type="button" class="btn recipe-close-btn"
+                    id="recipe-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <!-- meal content-->
+                <div class="meal-details-content">
+                    <!-- <h2 class="recipe-title">Meals Name Here</h2>
+                    <p class="recipe-category">Category Name</p>
+                    <div class="recipe-instruct">
+                        <h3>Instruction:</h3>
+                        <p>
+                            Hamburger là một loại thức ăn bao gồm bánh mì kẹp thịt xay ở giữa. 
+                            Miếng thịt có thể được nướng, chiên, hun khói hay nướng trên lửa
+                        </p>
+                        <p>
+                                A hamburger, or simply burger, is a sandwich consisting of fillings—usually a patty of ground meat,
+                             typically beef—placed inside a sliced bun or bread roll.
+                        </p>
+                        <div class="recipe-meal-img">
+                            <img src="img/tuesday.jpg" alt="">
+                        </div>
+                        <div class="recipe-link"> -->
+                            <!-- <a href="#" target="_blank" >Watch Video</a> target method dùng trong trang chính thống -->
+                        <!-- </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assit/food.js"></script>
+</body>
+</html>
